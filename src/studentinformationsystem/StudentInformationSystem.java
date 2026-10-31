@@ -22,6 +22,8 @@ public class StudentInformationSystem {
         System.out.print(" Enter student ID: ");
         String studentID = input.nextLine();
         
+        System.out.println("Programme: Bachelor of Computer Science (Software Engineering)");
+        
         System.out.print(" Enter mark 1: ");
         int mark1 = input.nextInt();
  
@@ -33,6 +35,7 @@ public class StudentInformationSystem {
         System.out.println();
         System.out.println("Student Name: " + studentName) ;
         System.out.println("Student ID:" + studentID);
+        System.out.println("Programme: Bachelor of Computer Science (Software Engineering)");
         System.out.println("Total mark = " + totalMark);
       
         if (totalMark >= 90) {
